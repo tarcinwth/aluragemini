@@ -1,4 +1,4 @@
-# 🌊 One Piece Wiki Project
+# 🌊 One Piece Wiki Projeto Imersão Alura-Gemini
 
 Bem-vindo(a) ao **One Piece Wiki**! 🏴‍☠️ Este é um projeto criado para a Imersão Alura-Gemini. Explore o vasto mundo dos piratas, procurando por seus personagens favoritos ou deixando a sorte te guiar com a função "Estou com sorte"! 🎲
 
