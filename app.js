@@ -6,7 +6,7 @@ function pesquisar() {
 
     // se campoPesquisa for uma string sem nada
     if (!campoPesquisa) {
-        section.innerHTML = "<p class='mensagem-erro'>Nada foi encontrado. Você precisa digitar o nome de um personagem</p>"
+        section.innerHTML = "<p class='mensagem-erro'>Nada foi encontrado. Você precisa digitar o nome de um personagem!</p>"
         return 
     }
 
@@ -17,7 +17,6 @@ function pesquisar() {
     let titulo = ""; 
     let descricao = "";
     let tags = "";
-    let imagem = "";
 
     // Itera sobre cada dado da lista de dados
     for (let dado of dados) {
@@ -34,7 +33,6 @@ function pesquisar() {
                 </h2>
                 <p class="descricao-meta">${dado.descricao}</p>
                 <a href=${dado.link} target="_blank">Mais informações</a>
-                <img src="${dado.imagem}" alt="${dado.titulo}">
             </div>
         `;
         }
@@ -47,3 +45,29 @@ function pesquisar() {
     // Atribui os resultados gerados à seção HTML
     section.innerHTML = resultados;
 }
+
+function mostrarPersonagemSorte() {
+    // Obtém a lista de dados
+    let dados = getDados();
+  
+    // Gera um índice aleatório
+    let indiceAleatorio = Math.floor(Math.random() * dados.length);
+  
+    // Seleciona o personagem aleatório
+    let personagemSorte = dados[indiceAleatorio];
+  
+    // Exibe o personagem na seção de resultados
+    let section = document.getElementById("resultados-pesquisa");
+    section.innerHTML = `
+      <div class="item-resultado">
+        <h2>
+          <a href="${personagemSorte.link}" target="_blank">${personagemSorte.titulo}</a>
+        </h2>
+        <p class="descricao-meta">${personagemSorte.descricao}</p>
+      </div>
+    `;
+  }
+  
+  function getDados() {
+    return dados;
+  }
