@@ -64,6 +64,7 @@ function mostrarPersonagemSorte() {
           <a href="${personagemSorte.link}" target="_blank">${personagemSorte.titulo}</a>
         </h2>
         <p class="descricao-meta">${personagemSorte.descricao}</p>
+        <a href=${personagemSorte.link} target="_blank">Mais informações</a>
       </div>
     `;
   }
