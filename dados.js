@@ -194,7 +194,28 @@ let dados = [
         link: "https://onepiece.fandom.com/pt/wiki/Oars",
         tags: "oars gigante thriller bark",
     },
-
-
-
-]
+    {
+        titulo: "Edward Newgate (Barba Branca)",
+        descricao: "Um dos Yonkou, conhecido como o homem mais forte do mundo. Era o capitão dos Piratas do Barba Branca.",
+        link: "https://onepiece.fandom.com/pt/wiki/Edward_Newgate",
+        tags: "barba branca yonkou marineford mais forte"
+      },
+      {
+        titulo: "Gol D. Roger",
+        descricao: "O Rei dos Piratas, que deixou o One Piece escondido em algum lugar. Sua morte marcou o início da Grande Era da Pirataria.",
+        link: "https://onepiece.fandom.com/pt/wiki/Gol_D._Roger",
+        tags: "roger rei dos piratas one piece grande era da pirataria"
+      },
+      {
+        titulo: "Joy Boy",
+        descricao: "Joy Boy foi um homem do Grande Reino que nasceu há 900 anos, no início do Século Perdido. Ele foi o primeiro pirata da história.[1] Uma figura extremamente relevante do Século Perdido, Joy Boy desempenhou um papel importante na história da Ilha dos Homens-Peixe, e deixou para trás um certo item de valor inimaginável na última ilha da Grand Line, tornando-se assim uma figura lendária e muito lembrada no Mundo.",
+        link: "https://onepiece.fandom.com/pt/wiki/Joy_Boy",
+        tags: "joyboy borracha nika"
+      },
+      {
+        titulo:"Marco",
+        descricao:"Marco, a Fênix[6][8] é o antigo comandante da 1ª divisão dos Piratas do Barba Branca.[2] Depois de começar como um aprendiz na tripulação,[9] ele eventualmente se tornou o confidente mais próximo e braço direito de Barba Branca.",
+        link:"https://onepiece.fandom.com/pt/wiki/Marco",
+        tags:"barba branca marco",
+      }
+    ]
