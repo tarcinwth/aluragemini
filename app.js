@@ -40,7 +40,7 @@ function pesquisar() {
     }
 
     if (!resultados) {
-        resultados = "<p>Nada foi encontrado</p>"
+        resultados = "<p class='mensagem-erro'>Nada foi encontrado</p>"
     }
 
     // Atribui os resultados gerados à seção HTML
