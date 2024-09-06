@@ -40,7 +40,7 @@ function pesquisar() {
     }
 
     if (!resultados) {
-        resultados = "<p class='mensagem-erro'>Nada foi encontrado</p>"
+        resultados = "<p class='mensagem-erro'>Eu acho que este não é um personagem de One Piece, tente outro!</p>"
     }
 
     // Atribui os resultados gerados à seção HTML
